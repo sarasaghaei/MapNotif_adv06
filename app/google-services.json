@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969407557460",
+    "project_id": "mapnotif-adv06",
+    "storage_bucket": "mapnotif-adv06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969407557460:android:05a37e322845c42ea9e2c1",
+        "android_client_info": {
+          "package_name": "ir.sarasaghaei.mapnotif_adv06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969407557460-s0ulgcka7peuo1b8lu0r5bfittsfdoii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQduTW_3OA2fzaMx_WonQRHjbBtLTkHL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969407557460-s0ulgcka7peuo1b8lu0r5bfittsfdoii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

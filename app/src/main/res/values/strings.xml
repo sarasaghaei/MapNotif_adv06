@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MapNotif_adv06</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="errorlocation_off">Use location service?</string>
+    <string name="message_errorlocation">To make best use of the map features, turn on the location of your device</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">trun on</string>
+    <string name="view_in_map">View in map</string>
+    <string name="map_application">Map application</string>
+    <string name="advanced_android_studio_course_of_mft">Advanced Android Studio course of MFT</string>
+    <string name="workout_session_06">workout session 06</string>
+    <string name="by_sara_saghaei">By sara saghaei</string>
+    <string name="info">Info</string>
+    <string name="notification">Notification</string>
+    <string name="map">Map</string>
+    <string name="search">search…</string>
+    <string name="title">title</string>
+    <string name="with_the_ability_to_search_and_receive_notifications">with the ability to search and receive notifications</string>
+</resources>

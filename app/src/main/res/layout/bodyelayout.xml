@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="10dp"
+    app:cardUseCompatPadding="true"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null">
+             <ImageView
+                 android:id="@+id/img_notif"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                 android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_baseline_notifications_24"
+                 tools:ignore="ContentDescription" />
+           <TextView
+               android:id="@+id/tv_titlenotif"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_below="@id/img_notif"
+               style="@style/titileitem"/>
+
+        <TextView
+            android:id="@+id/tv_bodynotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"
+            android:layout_below="@id/tv_titlenotif"
+            android:lines="3"
+            style="@style/bodyeitem"
+            />
+        <TextView
+            android:id="@+id/tv_datanotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="rtl"
+            android:layout_below="@id/tv_bodynotif"
+            style="@style/bodyeitem"/>
+
+    </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
